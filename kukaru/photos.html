@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Surprise</a></li>
+            <li><a href="photos.html">Music</a></li>
+            <li><a href="birthday card.html">Birthday Card</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Music</h1>
+    </section>
+    <!----music player---->
+    <section class="music">
+    
+    <div class="row">
+      <div class="column">
+        
+        <div class="player">
+          <div class="imgbx">
+            <img src="images/c1 (5).jpg">
+        </div>
+        <audio controls>
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+        </div>
+      </div>
+      <div class="column">
+        
+        <div class="player">
+          <div class="imgbx">
+            <img src="images/c1 (1).jpg">
+        </div>
+        <audio controls>
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+        </div>
+      </div>
+      <div class="column">
+        
+        <div class="player">
+          <div class="imgbx">
+            <img src="images/c1 (3).jpg">
+        </div>
+        <audio controls>
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+<!--footer-->
+<section class="footer">
+  <h4>Birthday <i class="fa fa-birthday-cake" ></i> </h4>
+  <p>1/6/2022</p>
+  
+  <p>Made with <i class="fa fa-heart-o" > </i>by Ozasweita</p>
+  </section>
+
+    <!------Javascript for toggle menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

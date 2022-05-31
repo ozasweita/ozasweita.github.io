@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="images/Happy Birthday.png" /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Surprise</a></li>
+            <li><a href="wishes.html">Wishes</a></li>
+            <li><a href="photos.html">Audio</a></li>
+            <li><a href="birthday card.html">Birthday Card</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our wishes</h1>
+    </section>
+    <!----Wishes---->
+    <section class="Glimpses">
+      <h1>Happy Momments</h1>
+      <p>Share ur moments</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Heloo Heloo</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Heloo Heloo</p>
+      </div>
+      <div class="course-col">
+        <h3>Post graduation</h3>
+        <p>Heloo Heloo</p>
+      </div>
+    </div>
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>yet to discover huhu </p>
+      <div class="row">
+        <div class="facilities-col">
+    <img src="images/Happy Birthday.png" >
+    <h3>World class library</h3>
+    <p> Read well Ok</p>
+    </div>
+    <div class="facilities-col">
+      <img src="images/Happy Birthday.png" >
+      <h3>Largest playground</h3>
+      <p> Play well Ok</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/Happy Birthday.png" >
+        <h3>Tasty healty food</h3>
+        <p> Eat well Ok</p>
+        </div>
+      </div>
+    </section>
+    
+<!--footer-->
+<section class="footer">
+<h4>About us</h4>
+<p>world best college</p>
+<div class="icons">
+  <i class="fa fa-facebook" ></i>
+  <i class="fa fa-twitter" ></i>
+  <i class="fa fa-instagram" ></i>
+  <i class="fa fa-linkedin" ></i>
+</div>
+<p>made with <i class="fa fa-heart-o" > </i>by Ozasweita</p>
+</section>
+
+    <!------Javascript for toggle menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday kuku</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"> <img src="images/Happy Birthday.png "  ></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Surprise</a></li>
+            <li><a href="photos.html">Music</a></li>
+            <li><a href="birthday card.html">Birthday Card</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Happy Birthday To You</h1>
+        <p>Wishing you <br>a never-ending pattern of peace and joy !</p>
+        <a href="birthdaycake.html" class="hero-btn">Make a wish</a>
+      </div>
+    </section>
+    
+<!---Glimpses--->
+<section class="Glimpses">
+  <h1>Good Wishes</h1>
+  <p>On Your Special Day</p>
+<div class="row">
+  <div class="course-col">
+    <h3>Today and everyday,<br>wishing only the best<br>for you</h3>
+    <p>~Happy Birthday~</p>
+  </div>
+  <div class="course-col">
+    <h3>May every new chapter<br>be better than<br>your last</h3>
+    <p>~Happy Birthday~</p>
+  </div>
+  <div class="course-col">
+    <h3>May happiness<br>bloom in your heart<br>all year long</h3>
+    <p>~Happy Birthday~</p>
+  </div>
+</div>
+</section>
+<!-----campus----->
+<section class="campus">
+  <h1>Memories</h1>
+  <p>The moments that we've spent together are some of the best I've ever had in my life. I am so grateful to have a friend like you! May every moment of your birthday be as wonderful as you are!</p>
+<div class="row">
+  <div class="campus-col">
+    <img src="images/memo.jpg" >
+    <div class="layer">
+      <h3>Many Happy<br> returns of the<br> day!</h3>
+    </div>
+  </div>
+  <div class="campus-col">
+    <img src="images/memo1.jpg" >
+    <div class="layer">
+      <h3>Wishing you <br> a day that is as special as you!</h3>
+    </div>
+  </div>
+  <div class="campus-col">
+    <img src="images/memo2.jpg" >
+    <div class="layer">
+      <h3>I wish you<br>the best on your special day!</h3>
+    </div>
+  </div>
+</div>
+</section>
+<!---facilities----->
+<section class="facilities">
+  <h1>~~Kukaru~~</h1>
+  <p>Handsome man in this universe </p>
+  <div class="row">
+    <div class="facilities-col">
+<img src="images/kuku3.jpg" >
+<h3>Talented</h3>
+<p> You have got so many talent share some with me too.</p>
+</div>
+<div class="facilities-col">
+  <img src="images/kuku.jpg" >
+  <h3>Handsome</h3>
+  <p> No wonder all girls are after You ahahaha.</p>
+  </div>
+  <div class="facilities-col">
+    <img src="images/kuku4.jpg" >
+    <h3>Hard-working</h3>
+    <p> You work so much...take rest and take care of your health.</p>
+    </div>
+  </div>
+</section>
+<!---testiomonial---->
+<section class="testimonials">
+  <h1>Birthday wishes </h1>
+  <p>From your well-wisher's</p>
+  <div class="row">
+    <div class="testimonials-col">
+      <img src="images/naruto.jpg" >
+      <div>
+        <p>It is wonderful to be able to share this special day with you. I hope it is filled with every happiness. Happy Birthday.</p>
+        <h3>Chinmaye</h3>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+      </div>
+    </div>
+    <div class="testimonials-col">
+      <img src="images/maingoku2.jpg" >
+      <div>
+        <p>It's party time! Blow out your candles, cut up the cake and let's celebrate! Wishing you a very Happy Birthday.</p>
+        <h3>Namrata</h3>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+        <i class="fa fa-birthday-cake" ></i>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!---call to action---->
+<section class="cta">
+  <h1>Enjoy your special day!<br>Once again Happy Birthday!!</h1>
+  <a href="celebration.html" class="hero-btn ">Celebration</a>
+
+</section>
+<!--footer-->
+<section class="footer">
+<h4>Birthday <i class="fa fa-birthday-cake" ></i> </h4>
+<p>1/6/2022</p>
+
+<p>Made with <i class="fa fa-heart-o" > </i>by Ozasweita</p>
+</section>
+
+    <!------Javascript for toggle menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
